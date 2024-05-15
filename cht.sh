@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-languages=`echo "golang lua java bash" | tr ' ' '\n'`
+languages=`echo "golang lua java bash js" | tr ' ' '\n'`
 core_utils=`echo "docker docker-compose find mv sed awk" | tr ' ' '\n'`
 
 selected=`printf "$languages\n$core_utils" | fzf`
