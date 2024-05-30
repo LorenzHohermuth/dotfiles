@@ -225,7 +225,7 @@ client.urgent           #900000 #900000 #ffffff #2b2b2b
 client.background       #333333
 
 exec_always nitrogen --restore
-exec_always compton
+exec_always picom
 exec_always copyq
 exec_always --no-startup-id dunst
 bindsym $mod+v exec copyq toggle
